@@ -1,0 +1,35 @@
+[
+  {
+    "ticket_id": "TC-0001",
+    "site": "Miramar Hub",
+    "equipment": "IP Router",
+    "alarm": "Network Down",
+    "severity": "High",
+    "timestamp": "2026-02-02T09:45:00-05:00",
+    "symptoms": ["No ping", "No remote access"],
+    "probable_causes": ["Power supply issue", "Uplink failure", "Misconfiguration"],
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TC-0002",
+    "site": "Tower Site A",
+    "equipment": "Tower Lighting",
+    "alarm": "Lighting Fault",
+    "severity": "Medium",
+    "timestamp": "2026-02-02T09:52:00-05:00",
+    "symptoms": ["Lighting controller fault indication"],
+    "probable_causes": ["Photocell failure", "Controller fault", "Breaker tripped"],
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TC-0003",
+    "site": "Cabinet Site B",
+    "equipment": "LMR-Adjacent Comms Unit",
+    "alarm": "Low Signal / Intermittent",
+    "severity": "Medium",
+    "timestamp": "2026-02-02T10:05:00-05:00",
+    "symptoms": ["Intermittent comms", "High noise reported"],
+    "probable_causes": ["Loose connector", "Water ingress", "Antenna/feedline issue"],
+    "status": "Open"
+  }
+]
