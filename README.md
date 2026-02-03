@@ -21,6 +21,12 @@ This project mirrors common responsibilities in telecom operations environments,
 - pathlib (cross-platform file handling)
 - Command-line interface (CLI)
 
+ ## Example Output
+
+![Simulator Output](simulator-output.png)
+
+
+
 ## Project Structure
 ```text
 field-rf-maintenance-simulator-main/
