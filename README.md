@@ -23,6 +23,9 @@ This project mirrors common responsibilities in telecom operations environments,
 
  ## Example Output
 
+ This simulator demonstrates alarm triage, technician dispatch, escalation handling,
+and structured shift logging similar to real NOC and field maintenance workflows.
+
 ![Simulator Output](simulator-output.png)
 Sample shift log (JSONL): `shift_log.jsonl`
 
