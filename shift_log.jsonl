@@ -1,0 +1,1 @@
+{"time": "2026-02-02T21:15:16", "action": "DISPATCH", "alarm_id": "ALM-49FF2679", "severity": "CRITICAL", "site": "Tower A12", "equipment": "RRU", "description": "RRU not responding", "dispatch_to": "Field Tech", "eta": "2 hours", "note": "RRU down, site outage suspected", "ticket": "TKT-87CFB3"}
