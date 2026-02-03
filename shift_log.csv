@@ -1,0 +1,4 @@
+time,action,ticket,alarm_id,severity,site,equipment,description,dispatch_to,eta,escalate_to,reason,note
+2026-02-02T21:15:16,DISPATCH,TKT-87CFB3,ALM-49FF2679,CRITICAL,Tower A12,RRU,RRU not responding,Field Tech,2 hours,,,"RRU down, site outage suspected"
+2026-02-02T21:35:19,DISPATCH,TKT-B385D6,ALM-49FF2679,CRITICAL,Tower A12,RRU,RRU not responding,Field Tech,2 hours,,,"RRU down, site outage suspected"
+2026-02-02T21:53:30,DISPATCH,TKT-35B56E,ALM-857E9539,MAJOR,Hub 7,Microwave Link,High BER detected,Field Tech,2 hours,,,"RRU down, site outage suspected. Dispatching field tech for investigation."
