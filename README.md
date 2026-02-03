@@ -51,7 +51,8 @@ Recorded screen capture demonstrating:
 - Automatic shift log creation
 
 ▶️ **Watch the demo video:**  
-[Field RF Alarm Dispatch Demo](2026-02-02%2023-10-33.mp4)
+[Field RF Alarm Dispatch Demo](./2026-02-02%2023-10-33.mp4)
+
 
 ---
 
