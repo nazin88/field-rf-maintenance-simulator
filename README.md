@@ -1,62 +1,33 @@
-# Field RF / Telecom Maintenance Simulator
+# Field RF / Telecom Maintenance Simulator (Python)
 
-This project simulates real-world workflows used by Field RF and telecommunications technicians to respond to alarms, diagnose issues, perform corrective maintenance, and restore equipment to operational status.
+A Python-based command-line simulator designed to model real-world telecom and RF maintenance workflows. The tool loads network and site alarms from structured JSON data and presents them in a technician-friendly format to support alarm monitoring, triage, and escalation activities commonly performed by Field Technicians and Network Operations Center (NOC) staff.
 
-The focus is on **field operations**, not theoretical RF modeling.
+## Key Capabilities
+- Alarm monitoring and visualization by severity (CRITICAL, MAJOR, MINOR)
+- Structured alarm data handling (site, equipment, description)
+- Input validation and error handling for missing or invalid data sources
+- Extendable design for alarm acknowledgment, dispatch, and escalation workflows
 
----
+## Real-World Relevance
+This project mirrors common responsibilities in telecom operations environments, including:
+- Reviewing and prioritizing alarms based on severity
+- Identifying impacted sites and network equipment
+- Supporting escalation paths and maintenance response decisions
+- Working with structured operational data (JSON)
 
-## What This Project Demonstrates
+## Technology Stack
+- Python 3
+- JSON
+- pathlib (cross-platform file handling)
+- Command-line interface (CLI)
 
-- Alarm-driven maintenance workflows
-- Field troubleshooting and fault isolation
-- Corrective vs preventive maintenance logic
-- Restoration of service with verification steps
-- Accurate documentation and service logging
-- Independent field decision-making under time pressure
+## Project Structure
+```text
+field-rf-maintenance-simulator-main/
+├── data/
+│   └── src/
+│       ├── app.py
+│       └── sample_alarms.json
+└── README.md
 
----
-
-## Simulated Environment
-
-The simulator represents multiple field sites such as:
-- Central hubs
-- Tower sites (including lighting systems)
-- Roadside or cabinet-based communications equipment
-
-Each site generates alarms with:
-- Severity levels
-- Symptoms
-- Probable causes
-- Service status tracking
-
----
-
-## How It Works
-
-1. Alarms are loaded from a structured dataset
-2. The technician can:
-   - Acknowledge alarms
-   - Review symptoms and probable causes
-   - Record root cause and corrective action
-   - Verify restoration and close tickets
-3. All actions are logged for traceability and documentation
-
----
-
-## Why This Is Relevant
-
-Field RF and telecom roles require fast response, structured troubleshooting, and clear documentation.  
-This simulator mirrors how real maintenance tickets are handled in live environments, including time-sensitive outages and restoration to service.
-
----
-
-## Run Locally
-
-**Requirements**
-- Python 3.10+
-
-**Install dependencies**
-```bash
-pip install -r requirements.txt
 
