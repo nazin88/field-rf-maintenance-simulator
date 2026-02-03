@@ -24,6 +24,7 @@ This project mirrors common responsibilities in telecom operations environments,
  ## Example Output
 
 ![Simulator Output](simulator-output.png)
+Sample shift log (JSONL): `shift_log.jsonl`
 
 
 
