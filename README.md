@@ -1,32 +1,59 @@
-## Example Output
+# Field RF / Telecom Maintenance Simulator (Python)
 
-This simulator demonstrates alarm triage, technician dispatch, escalation handling,
-and structured shift logging similar to real NOC and field maintenance workflows.
+A Python-based command-line simulator that models real-world telecom and RF field maintenance workflows.  
+The tool simulates alarm triage, technician dispatch, escalation handling, and structured shift logging—similar to processes used by NOCs and Field RF Technicians responding to live network events.
 
-### Interactive CLI Demo (Dispatch Workflow)
+---
 
-📹 **Recorded demo** showing alarm selection, dispatch, ETA entry, and logging:  
-`field-rf-alarm-dispatch-demo.mp4`
+## Key Capabilities
 
-### Sample Console Output
+- Alarm monitoring and prioritization by severity (CRITICAL, MAJOR, MINOR)
+- Structured alarm data handling (site, equipment, description)
+- Interactive CLI for alarm selection and response
+- Technician dispatch with ETA and work notes
+- Escalation and acknowledgment workflows
+- Automatic shift logging in JSONL and CSV formats
 
-Loaded alarms:
-- [CRITICAL] Tower A12 | RRU | RRU not responding
-- [MAJOR] Hub 7 | Microwave Link | High BER detected
+---
 
-Action selected: DISPATCH  
-Dispatch to: Field Tech  
-ETA: 2 hours  
-Ticket created: TKT-87CFB3
+## Real-World Relevance
 
-### Shift Log Artifacts
+This project mirrors common responsibilities in telecom field operations, including:
 
-Each action (acknowledge, dispatch, escalate) is logged in structured formats:
+- Responding to system alarms within defined SLAs
+- Diagnosing RF and network equipment issues
+- Dispatching field technicians with ETAs
+- Logging corrective maintenance actions
+- Maintaining accurate operational records for reporting and audits
 
-- **JSONL (append-only):** `shift_log.jsonl`  
-- **CSV (exported for reporting):** `shift_log.csv`
+The simulator is designed to reflect how Field RF Technicians and NOC staff interact with alarms, tickets, and maintenance documentation in production environments.
 
-These logs mirror real-world field maintenance and NOC documentation practices,
-including timestamps, severity, equipment, dispatch targets, ETAs, notes, and ticket IDs.
+---
 
+## Technology Stack
+
+- Python 3
+- JSON / JSONL
+- CSV reporting
+- pathlib (cross-platform file handling)
+- Command-line interface (CLI)
+
+---
+
+## 🎥 Interactive CLI Demo (Dispatch Workflow)
+
+Recorded screen capture demonstrating:
+
+- Alarm selection
+- Technician dispatch
+- ETA entry
+- Dispatch notes
+- Automatic shift log creation
+
+▶️ **Watch the demo video:**  
+[Field RF Alarm Dispatch Demo](2026-02-02%2023-10-33.mp4)
+
+---
+
+## Sample Console Output
 
